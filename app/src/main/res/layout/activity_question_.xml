@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_question_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="in.raman.raman.trickery.question_Activity">
+
+    <TextView
+        android:text="Number?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textColor="#3F9aff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="Do you see your"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView2"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:id="@+id/row1" />
+
+    <TextView
+        android:text="row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row1"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/row2" />
+
+    <TextView
+        android:text="row3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row2"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/row3" />
+
+    <TextView
+        android:text="row4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row3"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/row4" />
+
+    <TextView
+        android:text="row5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row4"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/row5" />
+
+    <TextView
+        android:text="row6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row5"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/row6" />
+
+    <TextView
+        android:text="row7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/row6"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/row7" />
+
+    <Button
+        android:text="no "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/yes"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:textColor="#ffff"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:id="@+id/no" />
+
+    <Button
+        android:text="yes "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:id="@+id/yes"
+        android:textColor="#ffff"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp" />
+
+
+</RelativeLayout>

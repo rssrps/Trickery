@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_guess"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="in.raman.raman.trickery.Guess">
+
+    <ImageView
+        app:srcCompat="@drawable/brain1"
+        android:id="@+id/imageView4"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="170dp"
+        android:layout_height="170dp" />
+
+    <Button
+        android:text="try again"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:id="@+id/retry"
+        android:layout_width="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:text="99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="65sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/answer"
+        android:layout_below="@+id/comment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:text="Comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#c0c0c0"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:id="@+id/comment"
+        android:layout_marginTop="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
